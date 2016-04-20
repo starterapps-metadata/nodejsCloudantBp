@@ -1,0 +1,76 @@
+{
+	"name": "Node.js Cloudant DB Web Starter",
+	"description": "Use the Cloudant NoSQL DB service with the 'SDK for Node.js™' runtime.",
+	"extra": {
+		"i18n": {
+			"de": {
+				"name": "Node.js Cloudant DB Web Starter",
+				"description": "Cloudant NoSQL DB-Service mit Laufzeit 'SDK for Node.js\u2122' verwenden."
+			},
+			"es": {
+				"name": "Node.js Cloudant DB Web Starter",
+				"description": "Utilice el servicio Cloudant NoSQL DB con el tiempo de ejecución 'SDK for Node.js\u2122'."
+			},
+			"fr": {
+				"name": "Node.js Cloudant DB Web Starter",
+				"description": "Utilisez le service Cloudant NoSQL DB avec le contexte d'exécution 'SDK for Node.js\u2122'."
+			},
+			"it": {
+				"name": "Node.js Cloudant DB Web Starter",
+				"description": "Utilizza il servizio Cloudant NoSQL DB con il runtime 'SDK for Node.js\u2122'."
+			},
+			"ja": {
+				"name": "Node.js Cloudant DB Web Starter",
+				"description": "Cloudant NoSQL DB サービスを 'SDK for Node.js\u2122' ランタイムと一緒に使用します。"
+			},
+			"ko": {
+				"name": "Node.js Cloudant DB 웹 스타터",
+				"description": "'SDK for Node.js\u2122' 런타임과 함께 Cloudant NoSQL DB 서비스를 사용합니다. "
+			},
+			"pt-BR": {
+				"name": "Node.js Cloudant DB Web Starter",
+				"description": "Use o serviço Cloudant NoSQL DB com o tempo de execução 'SDK for Node.js\u2122'."
+			},
+			"zh-Hans": {
+				"name": "Node.js Cloudant DB Web Starter",
+				"description": "将 Cloudant NoSQL DB 服务与“SDK for Node.js\u2122”运行时一起使用。"
+			},
+			"zh-Hant": {
+				"name": "Node.js Cloudant DB Web Starter",
+				"description": "使用 Cloudant NoSQL DB 服務搭配 'SDK for Node.js\u2122' 執行時期。"
+			}
+		}
+	},
+	"services": [{
+		"name": "cloudantNoSQLDB",
+		"choices": ["free"]
+	}],
+	"defaultMemory": 512,
+	"startCommand": "node app.js",
+	"type": "web",
+	"version": "1.1",
+	"smallIcon": "node_cloudant_small.png",
+	"icon": "node_cloudant_icon.png",
+	"largeIcon": "node_cloudant_large.png",
+	"featuredIcon": "node_cloudant_featured.png",
+	"marqueeIcon": "node_cloudant_marquee.png",
+	"headingIcon": "node_cloudant_heading.png",
+	"instructions": "app/instructions.md",
+	"source": {
+		"scmType": "git",
+		"url": "https://github.com/IBM-Bluemix/nodejs-cloudant.git",
+		"appPath": ""
+	},
+	"docURL": "/#starters/node-cloudant/index.html#node-cloudant",
+	"system_tags": ["ibm_created"],
+	"runtime_id": "763dcb4a-8642-4676-ae17-ca5bd032ad9e",
+	"metadata": {
+		"termsUrl": "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6622-01",
+		"bssRuntimeName": "sdk-for-nodejs"
+	},
+	"runtime_template_id": "nodejsHelloWorld",
+	"runtime": {
+		"name": "SDK for Node.js™"
+	},
+	"categories": ["boilerplate"]
+}
