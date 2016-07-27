@@ -60,10 +60,6 @@
 	},
 	"docURL": "/#starters/node-cloudant/index.html#node-cloudant",
 	"system_tags": ["ibm_created"],
-	"metadata": {
-		"termsUrl": "https://www.ibm.com/software/sla/sladb.nsf/sla/bm-6622-01",
-		"bssRuntimeName": "sdk-for-nodejs"
-	},
 	"runtime_template_id": "nodejsHelloWorld",
 	"categories": ["boilerplate"]
 }
