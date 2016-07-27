@@ -46,7 +46,6 @@
 		"choices": ["free"]
 	}],
 	"defaultMemory": 512,
-	"startCommand": "node app.js",
 	"type": "web",
 	"version": "1.1",
 	"smallIcon": "node_cloudant_small.png",
