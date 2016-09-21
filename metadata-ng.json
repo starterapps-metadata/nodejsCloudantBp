@@ -43,7 +43,7 @@
 	},
 	"services": [{
 		"name": "cloudantNoSQLDB",
-		"choices": ["free"]
+		"choices": ["Lite"]
 	}],
 	"defaultMemory": 512,
 	"type": "web",
