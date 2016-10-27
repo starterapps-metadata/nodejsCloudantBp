@@ -47,7 +47,7 @@
 	}],
 	"defaultMemory": 512,
 	"type": "web",
-	"version": "1.1",
+	"version": "1.2",
 	"smallIcon": "node_cloudant_small.png",
 	"icon": "node_cloudant_icon.png",
 	"largeIcon": "node_cloudant_large.png",
