@@ -45,7 +45,7 @@
 		"name": "cloudantNoSQLDB",
 		"choices": ["Lite"]
 	}],
-	"defaultMemory": 512,
+	"defaultMemory": 256,
 	"type": "web",
 	"version": "1.2",
 	"smallIcon": "node_cloudant_small.png",
